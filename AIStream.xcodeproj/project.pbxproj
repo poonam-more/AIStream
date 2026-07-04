@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F3FF26E02F3DCF7100A23746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3FF26C52F3DCF6B00A23746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3FF26CC2F3DCF6B00A23746;
+			remoteInfo = "NDA-ChatApp";
+		};
+		F3FF26EA2F3DCF7100A23746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3FF26C52F3DCF6B00A23746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3FF26CC2F3DCF6B00A23746;
+			remoteInfo = "NDA-ChatApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3A100012F60000100AISTRM /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		F3A100022F60000100AISTRM /* Secrets.example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.example.xcconfig; sourceTree = "<group>"; };
+		F3FF26CD2F3DCF6B00A23746 /* AIStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FF26DF2F3DCF7100A23746 /* AIStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FF26E92F3DCF7100A23746 /* AIStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F362171E2F4F154B0069FF6A /* Exceptions for "AIStream" folder in "AIStreamTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Services/HistoryService.swift,
+				Services/ProjectsService.swift,
+				ViewModels/HistoryChatViewModel.swift,
+				ViewModels/HistoryViewModel.swift,
+				ViewModels/ProjectDocumentsViewModel.swift,
+				ViewModels/ProjectsViewModel.swift,
+				Views/AddProjectModal.swift,
+			);
+			target = F3FF26DE2F3DCF7100A23746 /* AIStreamTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F3FF26CF2F3DCF6B00A23746 /* AIStream */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F362171E2F4F154B0069FF6A /* Exceptions for "AIStream" folder in "AIStreamTests" target */,
+			);
+			path = AIStream;
+			sourceTree = "<group>";
+		};
+		F3FF26E22F3DCF7100A23746 /* AIStreamTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AIStreamTests;
+			sourceTree = "<group>";
+		};
+		F3FF26EC2F3DCF7100A23746 /* AIStreamUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AIStreamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3FF26CA2F3DCF6B00A23746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FF26DC2F3DCF7100A23746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FF26E62F3DCF7100A23746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3A100032F60000100AISTRM /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F3A100012F60000100AISTRM /* Secrets.xcconfig */,
+				F3A100022F60000100AISTRM /* Secrets.example.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		F3FF26C42F3DCF6B00A23746 = {
+			isa = PBXGroup;
+			children = (
+				F3A100032F60000100AISTRM /* Config */,
+				F3FF26CF2F3DCF6B00A23746 /* AIStream */,
+				F3FF26E22F3DCF7100A23746 /* AIStreamTests */,
+				F3FF26EC2F3DCF7100A23746 /* AIStreamUITests */,
+				F3FF26CE2F3DCF6B00A23746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3FF26CE2F3DCF6B00A23746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3FF26CD2F3DCF6B00A23746 /* AIStream.app */,
+				F3FF26DF2F3DCF7100A23746 /* AIStreamTests.xctest */,
+				F3FF26E92F3DCF7100A23746 /* AIStreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3FF26CC2F3DCF6B00A23746 /* AIStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FF26F32F3DCF7100A23746 /* Build configuration list for PBXNativeTarget "AIStream" */;
+			buildPhases = (
+				F3FF26C92F3DCF6B00A23746 /* Sources */,
+				F3FF26CA2F3DCF6B00A23746 /* Frameworks */,
+				F3FF26CB2F3DCF6B00A23746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F3FF26CF2F3DCF6B00A23746 /* AIStream */,
+			);
+			name = AIStream;
+			packageProductDependencies = (
+			);
+			productName = "NDA-ChatApp";
+			productReference = F3FF26CD2F3DCF6B00A23746 /* AIStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3FF26DE2F3DCF7100A23746 /* AIStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FF26F62F3DCF7100A23746 /* Build configuration list for PBXNativeTarget "AIStreamTests" */;
+			buildPhases = (
+				F3FF26DB2F3DCF7100A23746 /* Sources */,
+				F3FF26DC2F3DCF7100A23746 /* Frameworks */,
+				F3FF26DD2F3DCF7100A23746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3FF26E12F3DCF7100A23746 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F3FF26E22F3DCF7100A23746 /* AIStreamTests */,
+			);
+			name = AIStreamTests;
+			packageProductDependencies = (
+			);
+			productName = "NDA-ChatAppTests";
+			productReference = F3FF26DF2F3DCF7100A23746 /* AIStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3FF26E82F3DCF7100A23746 /* AIStreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FF26F92F3DCF7100A23746 /* Build configuration list for PBXNativeTarget "AIStreamUITests" */;
+			buildPhases = (
+				F3FF26E52F3DCF7100A23746 /* Sources */,
+				F3FF26E62F3DCF7100A23746 /* Frameworks */,
+				F3FF26E72F3DCF7100A23746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3FF26EB2F3DCF7100A23746 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F3FF26EC2F3DCF7100A23746 /* AIStreamUITests */,
+			);
+			name = AIStreamUITests;
+			packageProductDependencies = (
+			);
+			productName = "NDA-ChatAppUITests";
+			productReference = F3FF26E92F3DCF7100A23746 /* AIStreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3FF26C52F3DCF6B00A23746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					F3FF26CC2F3DCF6B00A23746 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					F3FF26DE2F3DCF7100A23746 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = F3FF26CC2F3DCF6B00A23746;
+					};
+					F3FF26E82F3DCF7100A23746 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = F3FF26CC2F3DCF6B00A23746;
+					};
+				};
+			};
+			buildConfigurationList = F3FF26C82F3DCF6B00A23746 /* Build configuration list for PBXProject "AIStream" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3FF26C42F3DCF6B00A23746;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F3FF26CE2F3DCF6B00A23746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3FF26CC2F3DCF6B00A23746 /* AIStream */,
+				F3FF26DE2F3DCF7100A23746 /* AIStreamTests */,
+				F3FF26E82F3DCF7100A23746 /* AIStreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3FF26CB2F3DCF6B00A23746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FF26DD2F3DCF7100A23746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FF26E72F3DCF7100A23746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3FF26C92F3DCF6B00A23746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FF26DB2F3DCF7100A23746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3FF26E52F3DCF7100A23746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3FF26E12F3DCF7100A23746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3FF26CC2F3DCF6B00A23746 /* AIStream */;
+			targetProxy = F3FF26E02F3DCF7100A23746 /* PBXContainerItemProxy */;
+		};
+		F3FF26EB2F3DCF7100A23746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3FF26CC2F3DCF6B00A23746 /* AIStream */;
+			targetProxy = F3FF26EA2F3DCF7100A23746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3FF26F12F3DCF7100A23746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A100012F60000100AISTRM /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3FF26F22F3DCF7100A23746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A100012F60000100AISTRM /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3FF26F42F3DCF7100A23746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A100012F60000100AISTRM /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NDA-ChatApp/AppSecrets.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AIStream;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aistream.app;
+				PRODUCT_NAME = AIStream;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3FF26F52F3DCF7100A23746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A100012F60000100AISTRM /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NDA-ChatApp/AppSecrets.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AIStream;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aistream.app;
+				PRODUCT_NAME = AIStream;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3FF26F72F3DCF7100A23746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aistream.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIStream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AIStream";
+			};
+			name = Debug;
+		};
+		F3FF26F82F3DCF7100A23746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aistream.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIStream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AIStream";
+			};
+			name = Release;
+		};
+		F3FF26FA2F3DCF7100A23746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aistream.app.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AIStream;
+			};
+			name = Debug;
+		};
+		F3FF26FB2F3DCF7100A23746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aistream.app.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AIStream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3FF26C82F3DCF6B00A23746 /* Build configuration list for PBXProject "AIStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FF26F12F3DCF7100A23746 /* Debug */,
+				F3FF26F22F3DCF7100A23746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FF26F32F3DCF7100A23746 /* Build configuration list for PBXNativeTarget "AIStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FF26F42F3DCF7100A23746 /* Debug */,
+				F3FF26F52F3DCF7100A23746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FF26F62F3DCF7100A23746 /* Build configuration list for PBXNativeTarget "AIStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FF26F72F3DCF7100A23746 /* Debug */,
+				F3FF26F82F3DCF7100A23746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FF26F92F3DCF7100A23746 /* Build configuration list for PBXNativeTarget "AIStreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FF26FA2F3DCF7100A23746 /* Debug */,
+				F3FF26FB2F3DCF7100A23746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3FF26C52F3DCF6B00A23746 /* Project object */;
+}
